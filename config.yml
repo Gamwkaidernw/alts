@@ -1,0 +1,46 @@
+#   _____        _       _              _ _                 _ _      __  __                                   
+#  |  __ \      | |     | |            | ( )          /\   | | |    |  \/  |                                  
+#  | |  | |_   _| |_ ___| |__   ___  __| |/ ___      /  \  | | |_   | \  / | __ _ _ __   __ _  __ _  ___ _ __ 
+#  | |  | | | | | __/ __| '_ \ / _ \/ _` | / __|    / /\ \ | | __|  | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+#  | |__| | |_| | || (__| | | |  __/ (_| | \__ \   / ____ \| | |_   | |  | | (_| | | | | (_| | (_| |  __/ |   
+#  |_____/ \__,_|\__\___|_| |_|\___|\__,_| |___/  /_/    \_\_|\__|  |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|   
+#                                                                                              __/ |          
+#                                                                                             |___/           
+
+owner: CustomHud#6159
+# Syntax: - 443762652259418132 (Your Discord ID), there can be multiple owners
+  - 487251406147944448
+
+startup:
+# Manage your start-up
+  verify: false # Check if you have setup the bot correctly
+  versionCheck: true # Check if you are running the latest version
+
+discord:
+# Manage your discord settings
+  botToken: "OTU0NzU1MzIwNjc1MTgwNjE2.YjXvLg.I206d4Q1KjJVpAS-ftBUDlzid9k" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
+  prefix: "!"
+
+format:
+# Customize your embeds
+  successTitle: "Success!"
+  errorTitle: "Error!"
+  footer: "Dutched's Alt Manager v1.5.2"
+  embedColor: "#9702ed"
+
+minecraft:
+# Minecraft settings
+  auth: "mojang" # Pick either mojang/microsoft
+  serverIP: "zapaio.com"
+  serverPort: "25565"
+  version: "1.8.9"
+  joinCommand: "/ruby"
+  joinDelay: 3 # Time in between alts joining (in seconds)
+  joinCommandDelay: 3 # Time in between an alt joining and executing the join command (in seconds)
+  hideErrors: false # To hide the "unknown transaction" warning, if you have trouble getting the bots up you might want to change this to false
+
+alts:
+# This can be an infinite amount of alts, remember to fill it out like this "- AltEmail@email.com:Password123!"
+- b4rrrel@gmail.com:sponsorvidsgr123
+- theroflmao@hotmail.com:Dbzclaw1.
+- Nik.yelenchak@icloud.com:Nikita.2008
